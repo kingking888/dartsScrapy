@@ -1,7 +1,7 @@
 # dartsScrapy
 ###### A Scrapy project that scrapes Professional Darts data
 
-In order to scrape oddsportal.com Scrapy will utilise the [splash-plugin](https://github.com/scrapy-plugins/scrapy-splash)
+In order to scrape oddsportal.com [Scrapy](http://doc.scrapy.org/en/latest/intro/install.html) will utilise the [splash-plugin](https://github.com/scrapy-plugins/scrapy-splash)
 to wait for javascript to render the data. In order for Splash requests to work you will need to run them in a [docker](https://docs.docker.com/get-started/)
 container.
 
